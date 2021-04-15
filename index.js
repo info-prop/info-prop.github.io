@@ -402,7 +402,7 @@ function sleep(milliseconds) {
 
 function openMenu() {
     scrollTo(0, 0);
-    document.getElementById("body").style.overflow = "hidden";
+    document.getElementById("html").style.overflowY = "hidden";
     document.getElementById("side_menu_background").style.display = "block";
     document.getElementById("side_menu").style.display = "block";
     document.getElementById("side_menu").style.transition = "linear .1s transform";
@@ -416,7 +416,7 @@ function closeMenu() {
     scrollTo(0, 0);
     document.getElementById("side_menu").style.transform = "translate(1500px, 0px)";
     setTimeout(() => { 
-        document.getElementById("body").style.overflow = "visible";
+        document.getElementById("html").style.overflowY = "visible";
         document.getElementById("side_menu_background").style.display = "none";
         document.getElementById("side_menu").style.display = "none";
         document.getElementById("hrs").style.display = "block";
@@ -424,4 +424,7 @@ function closeMenu() {
      }, 100);
 
     
+}
+window.onload = function() {
+    window.scrollTo(0,0);
 }
