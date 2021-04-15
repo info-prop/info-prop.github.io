@@ -18,6 +18,7 @@ let _56 = document.getElementById("_56");
 let sub_56 = document.getElementById("sub_56");
 
 function changeTo(num) {
+    document.getElementById("html").style.overflowX = "hidden";
     if (num === 51) {
         mainp.style.display = "none";
         _51.style.display = "block";
@@ -45,6 +46,7 @@ function changeTo(num) {
 }
 
 function submit(num) {
+    document.getElementById("html").style.overflowX = "hidden";
     if (num === 51) {
         _51.style.display = "none";
         sub_51.style.display = "block";
@@ -402,6 +404,7 @@ function sleep(milliseconds) {
 
 function openMenu() {
     scrollTo(0, 0);
+    document.getElementById("html").style.overflowX = "hidden";
     document.getElementById("html").style.overflowY = "hidden";
     document.getElementById("side_menu_background").style.display = "block";
     document.getElementById("side_menu").style.display = "block";
@@ -414,6 +417,7 @@ function openMenu() {
 
 function closeMenu() {
     scrollTo(0, 0);
+    document.getElementById("html").style.overflowX = "hidden";
     document.getElementById("side_menu").style.transform = "translate(1500px, 0px)";
     setTimeout(() => { 
         document.getElementById("html").style.overflowY = "visible";
@@ -427,4 +431,5 @@ function closeMenu() {
 }
 window.onload = function() {
     window.scrollTo(0,0);
+    document.getElementById("html").style.overflowX = "hidden";
 }
