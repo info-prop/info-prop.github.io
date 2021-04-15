@@ -68,6 +68,7 @@ body {
 
 /*MAIN PAGE*/
 .content {
+    overflow-x: hidden;
     background-color: #dbe2ef;
     position: absolute;
     left: 0;
