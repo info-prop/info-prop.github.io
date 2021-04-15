@@ -153,6 +153,7 @@ html, body {
     src: url(fonts/Montserrat-Regular.ttf);
 }
 .classes_item_sec {
+    width: 90%;
     display: flex;
     flex-direction: column;
     margin-left: 30px;
@@ -471,6 +472,10 @@ html, body {
 
 
 @media screen and (max-width: 600px) {
+    .content {
+        width: 110%;
+        left: -10px;
+    }
     .nav_element {
         width: 25%;
         font-size: 16px;
@@ -507,6 +512,10 @@ html, body {
 }
 
 @media screen and (min-width: 600px) and (max-width: 900px) {
+    .content {
+        width: 110%;
+        left: -10px;
+    }
     .nav_element {
         width: 20%;
         font-size: 17px;
