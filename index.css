@@ -488,6 +488,18 @@ html, body {
     .title {
         font-size: 30px;
     }
+    .learn_keywords {
+        left: 20px;
+    }
+    .h2 {
+        left: 20px;
+    }
+    .text {
+        left: 20px;
+    }
+    .info {
+        left: 20px;
+    }
     .fas {
         font-size: 30px;
     }
